@@ -6,7 +6,7 @@ import { NavLink } from "react-router-dom";
 export default function OffersForYou() {
   return (
     <Box m={2}>
-    <NavLink to="/">
+    <NavLink to="/rj">
     <Stack>
         <Box width="100%" height="35px">
           <Stack width="100%" height="15px" direction="row">

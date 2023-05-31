@@ -28,7 +28,7 @@ const Menu = () => {
         <WhatsYouLikeToEatToday />
       </Stack>
       <Routes onUpdate={() => window.scrollTo(0, 0)}>
-        <Route path="/" element={<OffersForYou />} />
+        <Route path="/rj" element={<OffersForYou />} />
         <Route path="/:id" element={<SubMenuCard menu={menu} />} />
         <Route path="/cart" element={<Cart />} />
       </Routes>
